@@ -1,0 +1,30 @@
+.food
+{
+    align-items: center;
+}
+header {
+    background-color: #131414;
+    color: rgb(246, 249, 250);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.restaurant-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.restaurant-card {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
